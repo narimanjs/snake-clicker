@@ -37,11 +37,11 @@ function setImage() {
   let src = "";
 
   if (score >= 150) {
-    src = "./src/img/snakecoin4level-photoaidcom-cropped.png";
+    src = "./img/snakecoin2level-photoaidcom-cropped.png";
   } else if (score >= 100) {
-    src = "./src/img/snakecoin3level-photoaidcom-cropped.png";
+    src = "./img/snakecoin3level-photoaidcom-cropped.png";
   } else if (score >= 50) {
-    src = "./src/img/snakecoin2level-photoaidcom-cropped.png";
+    src = "./img/snakecoin2level-photoaidcom-cropped.png";
   }
 
   if (src) {
